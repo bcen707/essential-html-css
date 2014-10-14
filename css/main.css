@@ -7,6 +7,18 @@ and add the CSS rules as described in the challenge
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 @import url(http://fonts.googleapis.com/css?family=Lato);
 
+header {
+	padding: 1em;
+	background-color: #FA5A0F;
+	border-bottom: 5px #EA4A00;
+	color: #FFFFFF;
+}
+
+header h2 {
+	font-size: 120%;
+	color: #EEEEEE;
+	margin: none;
+}
 h1, h2, h3 {
 	font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
 	font-weight: 300;
@@ -29,5 +41,25 @@ h3 {
 }
 body {
 	font-family: 'Raleway', sans-serif;
-
+	/*background-image: url(../img/background.jpg);*/
+	background-size: cover;
 }
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #0000AA;
+}
+
+a:hover, input:focus {
+	color: #0000EE;
+}
+
+footer {
+	padding: 1em;
+	background-color: #FC892F;
+	border-top: 5px #EC791F;
+	font-size: 80%;
+	text-align: right;
+}
+
+
